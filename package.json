@@ -4,7 +4,6 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "dev": "vitest --ui",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
@@ -17,7 +16,7 @@
     "vitest": "latest"
   },
   "stackblitz": {
-    "startCommand": "npm run test:ui"
+    "startCommand": "npm run test"
   },
   "prettier": {
     "printWidth": 160,
