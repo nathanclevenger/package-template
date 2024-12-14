@@ -1,0 +1,27 @@
+{
+  "name": "@mdx.do/example-test",
+  "type": "module",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitest --ui",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "format": "prettier ."
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "prettier": "^3.4.2",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:ui"
+  },
+  "prettier": {
+    "printWidth": 160,
+    "semi": false,
+    "singleQuote": true
+  }
+}
